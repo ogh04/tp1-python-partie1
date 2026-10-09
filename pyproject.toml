@@ -1,0 +1,19 @@
+[project]
+name = "tp1-python-partie1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Omar Ghilan", email = "ghilanomar818@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.4.0",
+]
+
+[project.scripts]
+tp1-python-partie1 = "tp1_python_partie1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
